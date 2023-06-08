@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+}
+
+#quiz-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#question {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.radio-btn{
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.answer-option {
+  display: block;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#button-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4vw;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn{
+  background-color: rgb(11, 194, 11);
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submit-btn {
+  display: none;
+}
+
+#result-container {
+  display: none;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#result-message {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#score {
+  font-size: 16px;
+}
+
+.centered-container #result-message,
+.centered-container #score {
+  margin-top: 20px;
+}
